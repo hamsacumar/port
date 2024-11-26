@@ -1,0 +1,29 @@
+.flex{
+  display:flex;
+}
+.items-center{
+  align-items:center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+
+footer{
+    background:#161616;
+    text-align: center;
+    padding:5rem 0;
+  }
+  footer .footer-logo{
+    margin-bottom:3rem;
+    width:150px;
+  }
+  footer .footer-socials a{
+    margin-right:1rem;
+  }
+  footer .footer-socials{
+    margin-bottom:3rem;
+    margin-right:-1rem;
+  }
+  footer .copyright{
+    color:#898989;
+  }

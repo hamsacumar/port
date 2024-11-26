@@ -1,0 +1,112 @@
+.flex{
+  display:flex;
+}
+.items-center{
+  align-items:center;
+  text-align: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+
+.container{
+  text-align: center;
+}
+
+.container p{
+  color: #fcfbfb;
+}
+section.blog{
+    background:#161616;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+    padding-bottom:12rem;
+  }
+  section.blog .section-heading span{
+    color:#3DCFD3;
+  }
+  section.blog .section-heading{
+    color:#FFFFFF;
+  }
+  section.blog .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:3rem;
+    padding-bottom: 30px;
+  }
+  section.blog .card-wrapper .card{
+    background:#FFFFFF;
+  }
+  section.blog .card-wrapper .card .img-wrapper img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+  section.blog .card-wrapper .card .card-content{
+    padding:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+  section.blog .card-wrapper .card .card-content h1{
+    font-size:1rem;
+    font-weight:600;
+  }
+  section.blog .card-wrapper .card .card-content a{
+    color:#070606;
+    text-decoration: none;
+  }
+  section.blog .card-wrapper .card .card-content a:hover{
+    color:#3DCFD3;
+  }
+  section.blog .card-wrapper .card .card-content span{
+   color:#898989;
+   font-size:0.8rem; 
+  }
+  section.blog .card-wrapper .card .card-content p{
+    font-family:'Lato', sans-serif;
+    color:#898989;
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+  section.blog .card-wrapper .card .card-content a.read-more{
+    font-size:0.8rem;
+  }
+  
+  button{
+    align-items: center;
+    padding-right: 100px;
+  }
+  .btn{
+    align-items: center;
+    padding:0.8rem 3rem;
+    font-size:1rem;
+    font-weight:600;
+    border:2px solid transparent;
+    outline:none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -ms-transition:all .3s ease;
+    -o-transition:all .3s ease;
+  }
+  .btn-primary{
+    background:#3DCFD3;
+    color:#070606;
+  }
+  .btn-primary:hover{
+    background:transparent;
+    border-color: #3DCFD3;
+    color:#3DCFD3;
+  }
+  .btn-secondary{
+    background:transparent;
+    color:#3DCFD3;
+    border-color:#3DCFD3;
+  }
+  .btn-secondary:hover{
+    background:#3DCFD3;
+    color:#070606;
+  }
+  
+  
